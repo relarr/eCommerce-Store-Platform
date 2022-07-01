@@ -1,0 +1,32 @@
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.nav-links li {
+  margin: 1rem 0;
+}
+
+@media (min-width: 40rem) {
+  .nav-links {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin: 0 1rem;
+  }
+}

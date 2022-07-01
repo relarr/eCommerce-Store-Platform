@@ -1,0 +1,78 @@
+.profile {
+  display: block;
+}
+
+.profile-orders {
+  overflow: scroll;
+  max-width: 95vw;
+}
+
+.profile-orders h3 {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+.profile-orders table {
+  font-size: 2.3vw;
+  margin: 0.5rem 0;
+}
+
+.profile-orders th,
+.profile-orders td {
+  padding: 0.1rem;
+}
+
+.profile-orders button {
+  font-size: smaller;
+}
+
+.profile-details {
+  width: 100%;
+  margin: 0;
+}
+
+label {
+  align-self: start;
+  color: white;
+  font-weight: bold;
+}
+
+@media (min-width: 40rem) {
+  .profile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .profile-orders {
+    margin: 0 2rem;
+    max-width: initial;
+  }
+
+  .profile-orders h3 {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .profile-orders table {
+    margin: 0;
+    font-size: initial;
+  }
+
+  .profile-orders th,
+  .profile-orders td {
+    padding: 0.8rem;
+  }
+
+  .profile-details {
+    width: 20%;
+    min-width: 15rem;
+    margin: 2.5rem 2rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  .profile-orders {
+    overflow: initial;
+  }
+}

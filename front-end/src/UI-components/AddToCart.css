@@ -1,0 +1,16 @@
+.add-to-cart {
+}
+
+.stock h4 {
+  margin: 0;
+}
+
+.quantity select {
+  width: 35%;
+}
+
+.divisor {
+  width: 80%;
+  border-bottom: 1px solid gray;
+  margin: 0.5rem 0;
+}

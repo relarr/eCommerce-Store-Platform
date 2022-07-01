@@ -1,0 +1,36 @@
+.input {
+  margin: 0 0 0.2rem 0;
+  width: 100%;
+}
+
+.input input {
+  height: 2rem;
+  width: 100%;
+  border-radius: 8px;
+  border-style: none;
+}
+
+.input textarea {
+  border-radius: 8px;
+  border-style: none;
+  resize: none;
+}
+
+.invalid {
+  background-color: #f7bca5;
+}
+
+.input label {
+  display: block;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  margin: 0 0 0.3rem 0.3rem;
+}
+
+.input p {
+  font-size: x-small;
+  font-weight: 600;
+  color: #fd4f0a;
+  margin: 0 0 0 0.3rem;
+}

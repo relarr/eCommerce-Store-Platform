@@ -1,0 +1,37 @@
+.down-drawer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 4;
+  margin-top: 3rem;
+  height: auto;
+  width: 100%;
+  background: #8eaa60;
+}
+
+.slide-in-enter {
+  transform: translateY(-100vh);
+}
+
+.slide-in-enter-active {
+  transform: translateY(0vh);
+  opacity: 1;
+  transition: all 1000ms;
+}
+
+.slide-in-exit {
+  transform: translateY(0vh);
+  opacity: 1;
+}
+
+.slide-in-exit-active {
+  transform: translateY(-100vh);
+  opacity: 0;
+  transition: all 1000ms;
+}
+
+@media (min-width: 40rem) {
+  .down-drawer {
+    display: none;
+  }
+}

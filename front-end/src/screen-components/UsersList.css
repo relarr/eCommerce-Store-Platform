@@ -1,0 +1,56 @@
+.users-list {
+  text-align: center;
+}
+
+.users-list {
+  overflow: scroll;
+  max-width: 95vw;
+}
+
+.users-list h3 {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+.users-list table {
+  font-size: 2.3vw;
+  margin: 0.5rem 0;
+}
+
+.users-list th,
+.users-list td {
+  padding: 0.1rem;
+}
+
+.users-list button {
+  font-size: smaller;
+}
+
+@media (min-width: 40rem) {
+  .users-list {
+    margin: 0 2rem;
+    /*overflow: initial;*/
+    max-width: initial;
+  }
+
+  .users-list h3 {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .users-list table {
+    margin: 1.5rem 0;
+    font-size: initial;
+  }
+
+  .users-list th,
+  .users-list td {
+    padding: 0.8rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  .users-list {
+    overflow: initial;
+  }
+}

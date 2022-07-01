@@ -1,0 +1,57 @@
+.add-product-button {
+  text-align: center;
+}
+
+.products-list {
+  overflow: scroll;
+  max-width: 90vw;
+  height: 50vh;
+}
+
+.products-list h3 {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+.products-list table {
+  font-size: 2.3vw;
+  margin: 0.5rem 0;
+}
+
+.products-list th,
+.products-list td {
+  padding: 0.1rem;
+}
+
+.products-list button {
+  font-size: smaller;
+}
+
+@media (min-width: 40rem) {
+  .products-list {
+    margin: 0 2rem;
+    /*overflow: initial;*/
+    max-width: initial;
+  }
+
+  .products-list h3 {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .products-list table {
+    margin: 1.5rem 0;
+    font-size: initial;
+  }
+
+  .products-list th,
+  .products-list td {
+    padding: 0.8rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  .products-list {
+    overflow: initial;
+  }
+}

@@ -1,0 +1,91 @@
+.product {
+  display: block;
+}
+
+.product-info {
+  width: 95%;
+  margin: 2rem 1rem;
+}
+
+.images {
+  width: 100%;
+}
+
+.images img {
+  width: 97%;
+  border-radius: 5px;
+}
+
+.description {
+  width: 97%;
+}
+
+.description p {
+  margin: 0.2rem;
+}
+
+.reviews {
+  margin: 1rem;
+}
+
+.review {
+  margin-bottom: 1rem;
+}
+
+.review p {
+  margin: 0.5rem 0;
+}
+
+.reviews form {
+  width: 100%;
+  margin: 0;
+}
+
+@media (min-width: 40rem) {
+  .product {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 1% 3%;
+  }
+
+  .product-info {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    min-width: 25rem;
+    margin: 0 7%;
+  }
+
+  .images {
+    width: 66%;
+    min-width: 18rem;
+  }
+
+  .images img {
+    width: 100%;
+    height: auto;
+  }
+
+  .description {
+    width: 34%;
+    min-width: 22rem;
+    margin: 0 7%;
+  }
+
+  .description p {
+    margin: 0 0 1rem 0;
+  }
+
+  .description h2 {
+    margin-top: 0;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 22rem;
+    margin: 0 7%;
+  }
+}

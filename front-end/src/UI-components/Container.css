@@ -1,0 +1,31 @@
+.container {
+  width: 18rem;
+  height: 20rem;
+  background: #f1f0f0;
+  background: #f7f8f7e5;
+  border-radius: 5px;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.container img {
+  width: 94%;
+  height: 12rem;
+  margin: 3%;
+  border-radius: 5px;
+}
+
+.container h3 {
+  margin: 0.5rem 1rem;
+  font-weight: 400;
+  color: black;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+  color: black;
+}

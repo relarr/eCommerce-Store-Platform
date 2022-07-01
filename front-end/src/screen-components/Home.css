@@ -1,0 +1,11 @@
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 40rem) {
+  .products {
+    max-width: 60rem;
+  }
+}

@@ -1,0 +1,55 @@
+.orders-list {
+  text-align: center;
+}
+
+.orders-list {
+  overflow: scroll;
+  max-width: 95vw;
+}
+
+.orders-list h3 {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+.orders-list table {
+  font-size: 2.3vw;
+  margin: 0.5rem 0;
+}
+
+.orders-list th,
+.orders-list td {
+  padding: 0.1rem;
+}
+
+.orders-list button {
+  font-size: smaller;
+}
+
+@media (min-width: 40rem) {
+  .orders-list {
+    margin: 0 2rem;
+    max-width: initial;
+  }
+
+  .orders-list h3 {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .orders-list table {
+    margin: 1.5rem 0;
+    font-size: initial;
+  }
+
+  .orders-list th,
+  .orders-list td {
+    padding: 0.8rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  .orders-list {
+    overflow: initial;
+  }
+}

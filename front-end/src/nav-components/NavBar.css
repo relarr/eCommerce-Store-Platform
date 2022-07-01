@@ -1,0 +1,70 @@
+.nav-bar {
+  display: flex;
+}
+
+.burger-button {
+  width: 2.5rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.burger-button span {
+  display: block;
+  width: 2rem;
+  height: 0.4rem;
+  border-radius: 12px;
+  background: white;
+}
+
+.main-title {
+  position: absolute;
+  right: 2rem;
+}
+
+.main-title a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.links {
+  display: none;
+}
+
+.links p {
+  font-size: x-small;
+  font-weight: 700;
+  color: white;
+  margin: 0 1rem;
+}
+
+.drawer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 40rem) {
+  .burger-button {
+    display: none;
+  }
+
+  .main-title {
+    position: static;
+    width: 10%;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+  }
+}

@@ -1,0 +1,20 @@
+.order-payment h2 {
+  font-size: medium;
+}
+
+.order-payment h3 {
+  margin: 0 2.5rem;
+}
+
+@media (min-width: 40rem) {
+  .order-payment {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: 3%;
+  }
+
+  .order-payment h2 {
+    font-size: x-large;
+  }
+}

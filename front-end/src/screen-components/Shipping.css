@@ -1,0 +1,53 @@
+.shipping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.payment-input {
+  display: flex;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.payment-input input {
+  width: 20%;
+  height: 1rem;
+  accent-color: #6f8649;
+}
+
+.payment-input label {
+  margin: 0.2rem;
+}
+
+.payment-input input:hover {
+  cursor: pointer;
+}
+
+.shipping-form {
+  display: flex;
+  width: 100%;
+}
+
+label {
+  align-self: start;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  margin-left: 0.2rem;
+}
+
+@media (min-width: 40rem) {
+  .shipping {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 60%;
+    min-width: 40rem;
+  }
+
+  .shipping-form {
+    width: 40%;
+  }
+}
